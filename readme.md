@@ -58,6 +58,10 @@ npm i nodemon -D
 - Now, we can run the app using `npm run watch`.
 
 ---
+- #### But, this will only reload the `main process` (main.js file). 
+- #### The `renderer process` (index.html file) will not reload. To reload them, simply use `Ctrl + R` to reload the page. (or, `VIEW -> RELOAD`) 
+
+---
 
 ## How to run: 🏃‍♂️
 
