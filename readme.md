@@ -38,6 +38,27 @@ const createWindow = () => {
 
 ---
 
+## Auto reload: 🔄
+
+- We will use nodemon package to auto reload the app when we make changes to the code.
+
+```sh
+# install nodemon as a dev dependency
+npm i nodemon -D
+```
+- In package.json, we will add a script to run the app using nodemon.
+
+```json
+"scripts": {
+	"start": "electron .",
+	"watch": "nodemon --exec electron ."
+},
+```
+
+- Now, we can run the app using `npm run watch`.
+
+---
+
 ## How to run: 🏃‍♂️
 
 ```js
